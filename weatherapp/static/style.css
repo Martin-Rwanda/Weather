@@ -1,0 +1,71 @@
+
+:root {
+    --radius-bor:13px;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 60vw;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.text {
+    padding: 10px 0 50px 0;
+}
+
+.form {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type, .type1 {
+    padding: .7em;
+    border-radius: var(--radius-bor);
+    border: none;
+}
+
+.type1 {
+    width: 16rem;
+    outline: none; 
+}
+.type {
+    width: 7rem;
+    cursor: pointer;
+}
+.type:hover{
+    background-color: #c9ceca;
+}
+
+.weather{
+    width: 40vw;
+    padding: 60px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
